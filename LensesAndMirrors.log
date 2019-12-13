@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  12 DEC 2019 14:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  13 DEC 2019 08:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1017,11 +1017,11 @@ File: figures/convergingLens.pdf Graphic file (type pdf)
 <use figures/convergingLens.pdf, page 1>
 Package pdftex.def Info: figures/convergingLens.pdf , page1 used on input line 
 56.
-(pdftex.def)             Requested size: 298.75264pt x 174.29941pt.
+(pdftex.def)             Requested size: 426.79135pt x 249.00154pt.
 ) [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (17.26622pt too wide) in paragraph at lines 106--124
+Overfull \hbox (17.26622pt too wide) in paragraph at lines 114--132
  [] 
  []
 
@@ -1051,6 +1051,13 @@ Package pdftex.def Info: figures/divergingLens.pdf , page3 used on input line 6
 4.
 (pdftex.def)             Requested size: 298.75264pt x 235.34697pt.
 ) [3]
+<figures/ConvergingDivergingLens.png, id=58, 771.88374pt x 358.33875pt>
+File: figures/ConvergingDivergingLens.png Graphic file (type png)
+<use figures/ConvergingDivergingLens.png>
+Package pdftex.def Info: figures/ConvergingDivergingLens.png  used on input lin
+e 172.
+(pdftex.def)             Requested size: 426.79135pt x 198.13127pt.
+
 [4 <./figures/divergingLens.pdf> <./figures/divergingLens.pdf
 
 pdfTeX warning: pdflatex (file ./figures/divergingLens.pdf): PDF inclusion: mul
@@ -1059,30 +1066,32 @@ tiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./figures/divergingLens.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
->] [5] (./LensesAndMirrors.aux)
+> <./figures/ConvergingDivergingLens.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+ []
 
- ) 
+[5] (./LensesAndMirrors.aux) ) 
 Here is how much of TeX's memory you used:
- 26481 strings out of 492616
- 539693 string characters out of 6129482
- 549812 words of memory out of 5000000
- 30021 multiletter control sequences out of 15000+600000
+ 26338 strings out of 492616
+ 536493 string characters out of 6129482
+ 549523 words of memory out of 5000000
+ 29876 multiletter control sequences out of 15000+600000
  541971 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,16n,81p,522b,954s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
-/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on LensesAndMirrors.pdf (5 pages, 100992 bytes).
+ 64i,16n,81p,522b,586s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmti10.pfb>
+Output written on LensesAndMirrors.pdf (5 pages, 148520 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 134 words of extra memory for PDF output out of 10000 (max. 10000000)
 

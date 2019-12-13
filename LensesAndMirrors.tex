@@ -33,7 +33,7 @@
 \textsc{Answer all questions from the text on the lines beneath.}
 \end{center}
 In this experiment you will study lenses and mirrors by creating images on screens.
-By doing so you will study the laws describing them.\todo{rewrite}
+By doing so you will study the laws describing them.
 
 \section{Equipment}
 \begin{minipage}{0.49\textwidth}
@@ -62,14 +62,16 @@ Try the lens both close to objects and far away.
 If a lens is used to form an image of something infinitely far away, the
 distance from the lens to the image is defined to be the focal length. 
 This is because the rays from an infinitely remote object are essentially
-parallel, thus converging at the focal point.
+parallel (to the optical axis) and thus converge at the \textit{focal point} $f$
+and the distance from the lens axis to the focal point is called the
+\textit{focal length}.
 
 Use the lens to form an image of “something far away”. 
 To do this, place the lens on the optical bench and move the screen on the
 bench until a sharp image is formed on it. 
 \begin{figure}[tbh]
     \centering
-    \def\svgwidth{0.7\textwidth}
+    \def\svgwidth{\textwidth}
     \input{figures/convergingLens.pdf_tex}
     \caption{Converging lens: For an object outside of the focal point a \textit{real}
     inverted image is formed.}
@@ -160,45 +162,54 @@ Now, look at the light box through the lens, can you see the image?
     \centering
     \def\svgwidth{0.7\textwidth}
     \input{figures/divergingLens.pdf_tex}
-    \caption{Diverging lens}
+    \caption{The diverging lens creates a virtual image which we cannot capture on a screen.
+    Thus we have to add a converging lens.}
     \label{fig:divLens}
 \end{figure}
 
-\missingfigure{measurement of f', diverging lens}
-In order to produce a real image by a diverging lens you also need to use converging lens.
+\begin{figure}[tbh]
+    \centering
+    \includegraphics[width=\textwidth]{figures/ConvergingDivergingLens.png}
+    \caption{A converging followed by a diverging lens.
+    This way an upright real image is formed that can be captured on a screen.}
+    \label{fig:divergingConvergingLens}
+\end{figure}
+In order to produce a real image by a diverging lens you also need to use a converging lens,
+see figure~\ref{fig:divergingConvergingLens}.
 
-1. Start by forming a clear image on the screen using only the converging lens. Find the distance of the object to the lens p.
-Using the thin lens equation, calculate distance of the image q formed by the converging lens
-\begin{equation*}
-    q = \underline{\hspace{2cm}} \si{cm}\,.
-\end{equation*}
+\begin{enumerate}
+    \item Start by forming a clear image on the screen using only the converging lens. Find the distance of the object to the lens p.
+        Using the thin lens equation, calculate distance of the image q formed by the converging lens
+        \begin{equation*}
+            q = \underline{\hspace{2cm}} \si{cm}\,.
+        \end{equation*}
 
-2. Insert the diverging lens between the image and the converging lens. Refer to the diagram for help.\\
-3. measure the distance $d$ between the two lenses.
-\begin{equation*}
-    d = \underline{\hspace{2cm}} \si{cm}\,.
-\end{equation*}
-The image created by the converging lens becomes the object for the diverging lens.
-4. Move the diverging lens until a real image is produced on the screen.
-5. Measure the ``new'' object distance $p'$, with respect to the diverging lens. Take the difference between the two distances $q$ and $d$.
-\begin{equation*}
-    p' = q - d  = \underline{\hspace{2cm}} \si{cm}\,.
-\end{equation*}
-6. Measure the distance $q'$ between the screen and the diverging lens
-\begin{equation*}
-     q'  = \underline{\hspace{2cm}} \si{cm}\,.
-\end{equation*}
-7. Finally, find the focal length of the diverging lens using the thin lens equation for $p'$, $q'$ and $f'$.
-\textit{Note:} In equation~(\ref{eq:fprime}) \textit{the sign} of $p'$ has to be negative, since the image formed by
-the converging lens is behind the diverging lens.
-\begin{equation}
-    \frac{1}{p'} + \frac{1}{q'} = \frac{1}{f'}\,,
-\end{equation}
-find the focal length $f'$ of the diverging lens,
-\begin{equation*}
-     f'  = \underline{\hspace{2cm}} \si{cm}\,.
-     \label{eq:fprime}
-\end{equation*}
+    \item Insert the diverging lens between the image and the converging lens. Refer to the diagram for help.\\
+    \item measure the distance $d$ between the two lenses.
+        \begin{equation*}
+            d = \underline{\hspace{2cm}} \si{cm}\,.
+        \end{equation*}
+        The image created by the converging lens becomes the object for the diverging lens.
+    \item Move the diverging lens until a real image is produced on the screen.
+    \item Measure the ``new'' object distance $p'$, with respect to the diverging lens. Take the difference between the two distances $q$ and $d$.
+        \begin{equation*}
+            p' = q - d  = \underline{\hspace{2cm}} \si{cm}\,.
+        \end{equation*}
+    \item Measure the distance $q'$ between the screen and the diverging lens
+        \begin{equation*}
+            q'  = \underline{\hspace{2cm}} \si{cm}\,.
+        \end{equation*}
+    \item Finally, find the focal length of the diverging lens using the thin lens equation for $p'$, $q'$ and $f'$.
+        \textit{Note:} In equation~(\ref{eq:fprime}) \textit{the sign} of $p'$ has to be negative, since the image formed by the converging lens is behind the diverging lens.
+        \begin{equation}
+            \frac{1}{p'} + \frac{1}{q'} = \frac{1}{f'}\,,
+            \label{eq:fprime}
+        \end{equation}
+        find the focal length $f'$ of the diverging lens,
+        \begin{equation*}
+            f'  = \underline{\hspace{2cm}} \si{cm}\,.
+        \end{equation*}
+\end{enumerate}
 
 
 \end{document}
